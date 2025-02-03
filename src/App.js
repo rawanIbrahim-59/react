@@ -1,10 +1,13 @@
 import './App.css';
-import MyFirstComponent from './MyFirstComponenet';
+import Artical from './Artical';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <MyFirstComponent />
+        <Artical name="Ali" email="Ali@gmail.com"/>
+        <Artical name="Ahmad" email="Ahmad@gmail.com"/>
+        <Artical name="Nour" email="Nour@gmail.com"/>
+        <Artical name="Rawan" email="Rawan@gmail.com"/>
       </header>
     </div>
   );
