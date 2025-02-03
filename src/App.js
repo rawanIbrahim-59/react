@@ -1,11 +1,28 @@
 import './App.css';
-import MyFirstComponent from './MyFirstComponenet';
+import Header from './Header';
+import Post from './Post';
+import SideMenu from './SideMenu';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <MyFirstComponent />
-      </header>
+    <div>
+      <Header />
+      <div style={{display: "flex", justifyContent: "center", alignItems: "center"  }}>
+        <div style={{ display: "flex",width:"70%"}}>
+          <div style={{ width: "80%" }}>
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            
+          </div>
+          <div>
+            <SideMenu />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
