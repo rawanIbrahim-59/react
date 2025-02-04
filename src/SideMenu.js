@@ -2,18 +2,22 @@ import TagHoverButton from "./TagHoveButton";
 function SideMenu() {
   return (
     <div style={{padding:"20px", border: "3px solid teal", margin:"20px", flexWrap:"wrap", display: "flex", justifyContent: "center", alignItems: "center", width:"400px"}}>
-        <TagHoverButton >
-          <p style={{color:"red", width:"50px"}}>Hi</p>
-        </TagHoverButton>
-        <TagHoverButton >
+        <TagHoverButton title="click Here" >
           <p style={{color:"black", width:"50px"}}>Hi</p>
         </TagHoverButton>
-        <TagHoverButton >
+
+        <TagHoverButton title="اقرا أكثر">
           <p style={{color:"blue", width:"50px"}}>Hi</p>
         </TagHoverButton>
-        <TagHoverButton >
+
+        <TagHoverButton title="اقرا المزيد" >
           <p style={{color:"green", width:"50px"}}>Hi</p>
         </TagHoverButton>
+
+        <TagHoverButton title="تعلم أكثر" >
+          <p style={{color:"green", width:"50px"}}>Hi</p>
+        </TagHoverButton>
+
         <TagHoverButton >
           <p style={{color:"green", width:"50px"}}>Hi</p>
         </TagHoverButton>

@@ -1,8 +1,11 @@
 import './TestJsx.css';
-function TagHoverButton({children}) {
+function TagHoverButton({title ,children}) {
+  if(title=="" || title==null){
+    return null;
+  }
   return (
     <div>
-        <button className={"hoverButton"}>{children}</button>
+        <button className={"hoverButton"}>{title}{children}</button>
     </div>
   );
 }

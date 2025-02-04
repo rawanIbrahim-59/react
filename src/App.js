@@ -2,7 +2,6 @@ import './App.css';
 import Header from './Header';
 import Post from './Post';
 import SideMenu from './SideMenu';
-const category ="false"
 function App() {
   return (
     <div>
@@ -19,7 +18,7 @@ function App() {
             
           </div>
           <div>
-            <AppSideMenu />
+            <SideMenu />
           </div>
         </div>
       </div>
@@ -27,11 +26,4 @@ function App() {
   );
 }
 
-function AppSideMenu(){
-  if(category == true){
-    return <SideMenu />
-  }else{
-    return <div style={{color:"white", backgroundColor:"teal", padding:"20px", marginTop:"20px"}}>Nothing to show</div>
-  }
-}
 export default App;
