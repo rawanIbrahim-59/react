@@ -1,8 +1,8 @@
 import './TestJsx.css';
-function TagHoverButton() {
+function TagHoverButton({children}) {
   return (
     <div>
-        <button className={"hoverButton"}>Click Here</button>
+        <button className={"hoverButton"}>{children}</button>
     </div>
   );
 }

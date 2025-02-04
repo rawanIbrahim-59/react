@@ -9,13 +9,12 @@ function App() {
       <div style={{display: "flex", justifyContent: "center", alignItems: "center"  }}>
         <div style={{ display: "flex",width:"70%"}}>
           <div style={{ width: "80%" }}>
+            <Post title="learning" body="How do you learning"/>
+            <Post title="learning2" body="How do you learning2" />
             <Post />
+            <Post title="learning22" body="How do you learning22" />
             <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post  title="learning222" body="How do you learning222"/>
             
           </div>
           <div>
